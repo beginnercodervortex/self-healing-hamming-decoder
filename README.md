@@ -1,1 +1,1 @@
-# self-healing-hamming-decoder
+# Self Healing Hamming Decoder
