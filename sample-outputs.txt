@@ -1,0 +1,47 @@
+======================================
+SELF-HEALING HAMMING DECODER DEMO
+======================================
+
+TEST CASE 1
+
+Original Data      = 1101
+Encoded Codeword   = 1010101
+Corrupted Codeword = 1000101
+Syndrome           = 101
+Error Position     = 5
+Corrected Codeword = 1010101
+Recovered Data     = 1101
+
+
+======================================
+
+TEST CASE 2
+
+Original Data      = 0110
+Encoded Codeword   = 0110011
+Corrupted Codeword = 0110001
+Syndrome           = 010
+Error Position     = 2
+Corrected Codeword = 0110011
+Recovered Data     = 0110
+
+
+======================================
+
+TEST CASE 3
+
+Original Data      = 1111
+Encoded Codeword   = 1111111
+Corrupted Codeword = 1110111
+Syndrome           = 100
+Error Position     = 4
+Corrected Codeword = 1111111
+Recovered Data     = 1111
+
+
+======================================
+
+OBSERVATION
+
+For all test cases, the injected single-bit fault was successfully detected,
+located, corrected, and the original 4-bit data was recovered without loss.
